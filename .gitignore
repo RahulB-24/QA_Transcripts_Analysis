@@ -1,0 +1,34 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+backend/venv/
+
+# ── Backend storage (cached models, embeddings, data) ──
+backend/storage/cached_dataset.pkl
+backend/storage/embeddings.index
+backend/storage/embedding_metadata.pkl
+backend/storage/trust_scores.pkl
+
+# ── Node / Frontend ────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/package-lock.json
+
+# ── IDE / OS ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Hugging Face model cache ───────────────────────
+.cache/
